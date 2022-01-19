@@ -55,6 +55,6 @@ To use the code open the CMD on the same directory and type
 
 This project exists, thanks to all the people who contribute.
 
-<a href="https://github.com/sergi-s/FWD-LandingPage/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sergi-s/FWD-LandingPage" />
+<a href="https://github.com/sergi-s/FWD-Weather-Journal/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sergi-s/FWD-Weather-Journal" />
 </a>
