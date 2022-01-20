@@ -17,7 +17,7 @@ let zip = document.getElementById("zip");
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
+let newDate = d.getMonth() + 1 + "." + d.getDate() + "." + d.getFullYear();
 
 // Event listener to add function to existing HTML DOM element
 
@@ -46,7 +46,7 @@ async function getWeather() {
           date: newDate,
           temp: data.main.temp,
           feelings: feelings.value,
-        }).then(updateUI());
+        }).then(updateUI);
       });
     } else {
       // did not enter zip code
